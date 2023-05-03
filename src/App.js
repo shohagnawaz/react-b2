@@ -4,6 +4,7 @@ import AppHeader from './components/Header';
 import AppHero from './components/Hero';
 import AppAbout from './components/About';
 import AppService from './components/Services';
+import AppWorks from './components/Works';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <AppHero />
         <AppAbout />
         <AppService />
+        <AppWorks />
       </main>
     </div>
   );

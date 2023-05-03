@@ -5,6 +5,9 @@ import AppHero from './components/Hero';
 import AppAbout from './components/About';
 import AppService from './components/Services';
 import AppWorks from './components/Works';
+import AppTeams from './components/Teams';
+import AppTestimonials from './components/Testimonials';
+import AppPricing from './components/Pricing';
 
 function App() {
   return (
@@ -17,6 +20,9 @@ function App() {
         <AppAbout />
         <AppService />
         <AppWorks />
+        <AppTeams />
+        <AppTestimonials />
+        <AppPricing />
       </main>
     </div>
   );

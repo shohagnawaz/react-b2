@@ -25,7 +25,7 @@ let heroData = [
 
 export default function AppHero() {
     return (
-        <section id='home' class='hero-block'>
+        <section id='home' className='hero-block'>
             <Carousel>
                 {
                     heroData.map(hero => {
@@ -39,7 +39,7 @@ export default function AppHero() {
                                 <Carousel.Caption>
                                     <h3>{hero.title}</h3>
                                     <p>{hero.description}</p>
-                                    <a className='btn btn-primary' href={hero.link}>Learn More<i class="fas fa-chevron-right"></i></a>
+                                    <a className='btn btn-primary' href={hero.link}>Learn More<i className="fas fa-chevron-right"></i></a>
                                 </Carousel.Caption>
                             </Carousel.Item>
                         )
